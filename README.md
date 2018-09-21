@@ -9,9 +9,13 @@ a city name, and a list of cities appears below that.
 
 # Improvements
 
-Note that this code doesn't get a prize. Ideally, the tableview would iterate
-over the results and there wouldn't be an intermediary results array. Also, I'm
-pretty sure the preparing/binding/finalizing can be done more efficiently.
+Note that this code doesn't get a prize:
+* Ideally, the tableview would iterate over the results and there wouldn't be
+  an intermediary results array
+* I'm pretty sure the preparing/binding/finalizing can be done more
+  efficiently
+* Querying the database is done in the main thread and no busy indicator is
+  shown
 
 # To create your own database
 
