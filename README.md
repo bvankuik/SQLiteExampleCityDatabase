@@ -7,6 +7,12 @@ else's framework.
 Please check the supplied code for an example of where the user starts to type
 a city name, and a list of cities appears below that.
 
+# Improvements
+
+Note that this code doesn't get a prize. Ideally, the tableview would iterate
+over the results and there wouldn't be an intermediary results array. Also, I'm
+pretty sure the preparing/binding/finalizing can be done more efficiently.
+
 # To create your own database
 
 You'll undoubtedly want to play around and create your own database. Below is a
